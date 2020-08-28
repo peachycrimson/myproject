@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Cart</title>
+</head>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<header>
+<h3>Let's Get It Delivered!</h3>
+<h1><img src="logo1.png" alt="Logo" width:"100" height="100">Wasan Groups of Market</h1>
+</header>
+<body background="bgimg.jpeg">
+
+<nav>
+<a href="index.html"name="Home"><img src="homeicon.png" alt="Home" width="33" height="22"<br>Home</a>|
+<a href="aboutus.html" name="About Us"><img src="about_us.png" alt="About Us" width="33" height="22"<br>About Us</a>|
+<a href="contactus.html" name="Contact Us"><img src="cont_us.png" alt="Home" width="33" height="22"<br>Contact Us</a>|
+<a href="ourproduct.html" name="Our Product"><img src="ourproduct.png" alt="Home" width="33" height="22"<br>Our Product </a>
+</nav>
+
+<sidenav>
+    <ol>
+		<li><a href="myaccount.html">My Account</a></li>
+		<li><a href="mycart.html">My Cart</a></li>
+		<li><a href="followus.html">Follow Us</a></li>
+    </ol>
+</sidenav>
+
+<section  class= section3>
+<h2>My Cart</h2>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="container">
+      <label for="pcategory"><b>Product Category</b></label>
+      <input type="text" placeholder="Enter Product Category" name="pcategory" required><br/><br/>
+
+      <label for="pdescription"><b>Product Description</b></label>
+      <input type="text" placeholder="Enter Product Description" name="pdescription" required><br/><br/>
+      
+      <label for="tAmt"><b>Total Amount</b></label>
+      <input type="text" placeholder="Enter Total Amount" name="tAmt" required><br/><br/>
+
+      <button type="submit">Submit Order</button><br/><br/>
+    </div>
+
+    <div class="container">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel Order</button>
+    </div>
+  </form>
+</div>
+</section>
+
+<img class="aside-img" src="mycart1.jpeg" alt="Turnip";>
+<img class="aside-img" src="mycart2.jpeg" alt="Vegetables";>
+
+<hr class="new3">
+
+<footer>
+Copyright © 2019 - Wasan Groups of Market. All Rights Reserved.
+</footer>
+</body>
+</html>

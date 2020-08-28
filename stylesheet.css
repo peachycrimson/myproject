@@ -1,0 +1,162 @@
+@charset "utf-8";
+h1 { font-family: Verdana;
+	 text-transform: uppercase;
+	 text-shadow: 2px 3px #ffffff;
+	 letter-spacing:0.2 em;
+	 text-align:left;
+}
+
+h2 {font-family:BlizzardD;
+	font-size:26px;
+}
+
+h3	{ float: right;
+	  font-family: sans-serif;
+	  font-weight: bold;
+	  font-style:italic;
+	  text-align: right;
+}
+
+nav { text-align: center;
+	  background-color: #f5f5dc;
+}
+
+nav:hover { background-color: #EBB9F7;
+}
+
+ol { color: #66C;
+}
+
+sidenav { line-height: 30px;
+	height: 340px;
+	width: 150px;
+	position: fixed;
+	float: left;
+	background-color:#f5f5dc;
+	padding: 5px;
+	opacity: 0.8;
+}
+
+sidenav:hover {
+	background-color: #EBB9F7;
+}
+
+section {
+	height:300px ;
+	width:550px;
+	top:180px ;
+	left: 180px;
+	position:absolute;
+	padding:20px;
+	font-family:Calibri;
+	font-size:14px;
+	background-color:#EBB9F7;
+}
+
+section.section1 {
+	height: 850px;
+	width: 850px;
+	top: 180px;
+	left: 180px;
+	/* [disabled]position:absolute; */
+	padding: 20px;
+	font-family: Calibri;
+	font-size: 14px;
+	background-color: #EBB9F7;
+}
+
+section.section2 {
+	height:300px ;
+	width:550px;
+	top:180px ;
+	left: 180px;
+	position:absolute;
+	padding:20px;
+	font-family:Calibri;
+	font-size:14px;
+	background-color:#EBB9F7;
+}
+
+section.section3 {
+	height:300px ;
+	width:550px;
+	top:180px ;
+	left: 180px;
+	position:absolute;
+	padding:20px;
+	font-family:Calibri;
+	font-size:14px;
+	background-color:#EBB9F7;
+}
+
+section.section4 {
+	height:350px ;
+	width:550px;
+	top:180px ;
+	left: 180px;
+	position:absolute;
+	padding:20px;
+	font-family:Calibri;
+	font-size:14px;
+	background-color:#EBB9F7;
+}
+
+p {color: #000000;
+}
+
+iframe {
+	margin-top: 400px;
+	margin-left: 175px;
+}
+
+.aside-img {
+	float: right;
+	clear: right;
+	margin-right:10px;
+	margin-bottom: 5px;
+	border: solid black 1px;
+	padding: 2px;
+	height: 200px;
+	width: 350px;
+}
+
+sec-img {
+	float: left;
+	clear: right;
+	padding: 2px;
+	height: 200px
+	width: 350px;
+}
+
+	
+hr.new1 {
+	text-align:center ;
+	clear:both ;
+	margin-top:300px ;
+	border:1px solid black ;
+}
+
+hr.new2 {
+	text-align:center ;
+	clear:both ;
+	margin-top:900px ;
+	border:1px solid black ;
+}
+
+hr.new3 {
+	text-align:center ;
+	clear:both ;
+	margin-top:350px ;
+	border:1px solid black ;
+}
+
+hr.new4 {
+	text-align:center ;
+	clear:both ;
+	margin-top:400px ;
+	border:1px solid black ;
+}
+footer {
+	text-align: center;
+}
+/* CSS Document */
